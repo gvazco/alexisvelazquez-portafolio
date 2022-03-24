@@ -1,0 +1,19 @@
+import styled from "styled-components"
+
+export const Pag = styled.div`
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 10px !important;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: blue;
+    }
+  }
+`
