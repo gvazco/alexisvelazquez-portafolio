@@ -37,7 +37,7 @@ export const Masonry = styled.div`
 export const MasonryItem = styled.div`
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 100%;
   box-shadow: 2px 2px 5px #999 !important;
 

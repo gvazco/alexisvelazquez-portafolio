@@ -2,6 +2,13 @@ import styled, { createGlobalStyle } from "styled-components"
 
 export const Primary = styled.main`
   padding: 110px 0 0 0;
+
+  @media (min-width: 992px) {
+    padding: 110px 60px 0 60px;
+  }
+  @media (min-width: 1600px) {
+    padding: 110px 90px 0 90px;
+  }
 `
 
 export const GlobalStyles = createGlobalStyle`
