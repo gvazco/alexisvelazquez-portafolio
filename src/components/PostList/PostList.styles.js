@@ -23,6 +23,15 @@ export const MasonryWrapper = styled.div`
 export const Masonry = styled.div`
   columns: 3;
   column-gap: 20px;
+
+  @media (max-width: 992px) {
+    columns: 2;
+    column-gap: 20px;
+  }
+  @media (max-width: 576px) {
+    columns: 1;
+    column-gap: 20px;
+  }
 `
 
 export const MasonryItem = styled.div`

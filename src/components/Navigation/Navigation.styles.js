@@ -13,7 +13,7 @@ export const Wrapper = styled.nav`
     color: gray;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     font-size: 0.8rem;
     display: block;
   }
