@@ -16,7 +16,7 @@ const Footer = () => {
           <Submenu className="col">
             <ul className="footer-menu">
               <li>
-                <Link to="/skills">¿Quien Soy?</Link>
+                <Link to="/about-me">¿Quien Soy?</Link>
               </li>
               <li>
                 <a href="https://wa.link/rg1heh">¿Cómo puedo ayudarte?</a>
