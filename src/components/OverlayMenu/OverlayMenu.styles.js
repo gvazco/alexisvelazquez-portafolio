@@ -27,6 +27,7 @@ export const Overlay = styled.div`
     .invertedLogo {
       max-width: 120px;
       margin: 0 0 60px 0;
+      filter: invert(100%);
     }
 
     .overlayMenu {
@@ -48,9 +49,7 @@ export const Overlay = styled.div`
         color: #fff;
         transition: all 0.3s ease;
         text-decoration: none;
-        background: linear-gradient(to top, #303257, #bdc5c4);
         animation: animate 5s linear infinite;
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
         :hover {
