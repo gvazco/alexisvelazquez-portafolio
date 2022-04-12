@@ -6,6 +6,9 @@ import Seo from "../seo"
 
 import { Wrapper, Container, Row, Col, Image } from "./Profile.styles"
 
+import AboutMe from "../AboutMe"
+import Skills from "../Skills"
+
 const data = [
   {
     title: "Edad:",
@@ -53,6 +56,8 @@ export default function Profile() {
             </div>
           </div>
         </Row>
+        <AboutMe />
+        <Skills />
       </Container>
     </Wrapper>
   )

@@ -25,7 +25,7 @@ export const Overlay = styled.div`
     padding: 40px;
 
     .invertedLogo {
-      max-width: 120px;
+      max-width: 250px;
       margin: 0 0 60px 0;
       filter: invert(100%);
     }
@@ -49,20 +49,9 @@ export const Overlay = styled.div`
         color: #fff;
         transition: all 0.3s ease;
         text-decoration: none;
-        animation: animate 5s linear infinite;
-        -webkit-text-fill-color: transparent;
 
         :hover {
           color: #ee2562;
-        }
-        @keyframes animate {
-          0%,
-          100% {
-            filter: hue-rotate(0deg);
-          }
-          50% {
-            filter: hue-rotate(360deg);
-          }
         }
       }
     }
